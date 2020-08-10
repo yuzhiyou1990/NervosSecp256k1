@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/lishuailibertine/NervosPod"
   s.license      = "MIT"
   s.author       = { "lishuailibertine" => "lishuai19@yeah.net" }
-  s.source       = { git: "https://github.com/lishuailibertine/NervosPod.git", tag: "v#{s.version.to_s}" }
+  s.source       = { git: "https://github.com/lishuailibertine/NervosPod.git", tag: "#{s.version.to_s}" }
 
   s.swift_version = '5.1'
   s.module_name = 'Nervos'
