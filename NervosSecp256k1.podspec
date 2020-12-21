@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "NervosSecp256k1"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "Swift NervosSecp256k1"
 
   s.description  = <<-DESC
@@ -18,5 +18,5 @@ Pod::Spec.new do |s|
   s.source_files = "Source/**/*.{h,swift}"
   s.public_header_files = "Source/**/*.{h}"
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
-  s.dependency 'secp256k1.swift', '~> 0.1.4'
+  s.dependency 'secp256k2.swift', '~> 0.1.5'
 end
