@@ -18,5 +18,5 @@ Pod::Spec.new do |s|
   s.source_files = "Source/**/*.{h,swift}"
   s.public_header_files = "Source/**/*.{h}"
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
-  s.dependency 'secp256k2.swift', '~> 0.1.5'
+  s.dependency 'secp256k1.c', '~> 0.1.2'
 end
