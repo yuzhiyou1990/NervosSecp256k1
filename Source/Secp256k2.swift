@@ -5,7 +5,7 @@
 //
 
 import Foundation
-import secp256k2
+import secp256k1
 
 /// Thin wrapper of [C Secp256k1 library](https://github.com/bitcoin-core/secp256k1).
 final public class NervosSecp256k1 {
